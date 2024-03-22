@@ -13,7 +13,7 @@ function App() {
     // selectedButton => 'Components' , 'JSX' , 'Props' , 'State'
     setSelectedTopic(selectedButton);
     console.log(`${selectedButton} button was Selected`)
-    console.log(selectedTopic);
+    // console.log(selectedTopic);
   }
 
   return (
