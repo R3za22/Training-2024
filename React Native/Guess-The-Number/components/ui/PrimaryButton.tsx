@@ -1,11 +1,12 @@
 import { Colors } from "@/constants/Colors";
+import { ReactNode } from "react";
 import { Text, View, Pressable, StyleSheet } from "react-native";
 
 const PrimaryButton = ({
   children,
   onPress,
 }: {
-  children: string;
+  children: ReactNode;
   onPress: any;
 }) => {
   return (
